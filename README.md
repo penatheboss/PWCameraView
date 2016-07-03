@@ -1,16 +1,17 @@
 # PWCameraView
 An awesome camera for everybody's use!
 
-Notes about PWCameraView
+Notes about PWCameraView:
 
 
-This project is witten in Swift 3
 
-rotateButton has an image named "rotate" PWCameraView checks if the image exists; otherwise it will replace with a title
+ - This project is witten in Swift 3
 
-The 'reload' method cannot be called in 'viewDidLoad'. Call it in 'viewWillAppear' or 'viewDidAppear'
+ - rotateButton has an image named "rotate" PWCameraView checks if the image exists; otherwise it will replace with a title
 
-Add "NSCameraUsageDescription" in your info.plist with a String that states how your app will use the camera
+ - The 'reload' method cannot be called in 'viewDidLoad'. Call it in 'viewWillAppear' or 'viewDidAppear'
+
+ - Add "NSCameraUsageDescription" in your info.plist with a String that states how your app will use the camera
 
 
 Usage:
